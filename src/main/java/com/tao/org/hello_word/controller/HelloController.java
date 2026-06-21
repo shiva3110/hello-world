@@ -13,8 +13,8 @@ public class HelloController {
     @GetMapping("/hello")
     public UserAuthentication hello(){
         UserAuthentication obj = new UserAuthentication();
-        obj.setUsername("test");
-        obj.setMsg("test msg");
+        obj.setUsername("Nandhini");
+        obj.setMsg("Hello Dev!");
         return obj;
     }
 
